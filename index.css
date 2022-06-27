@@ -6,7 +6,8 @@
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
   body {
-    background: #30333A;
+    background: #000000;
+    font-family: 'Poppins', sans-serif;
   }
   
   .wrapper {
@@ -15,9 +16,39 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .home__container {
+    
+    row-gap: 4.5rem;
+    padding-top: 2rem;
+  }
+  
+  .home__data {
+    text-align: center;
+  }
+  
+  .home__greeting,
+  .home__education {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+  }
+  .home__name{
+    color: rgb(248, 248, 248);
+  
+
+  }
+  .home__greeting {
+
+    color:#A395E9;
+    margin-bottom: .25rem;
+  }
+  
+  .home__education {
+    color:#A395E9;
+    margin-bottom: 2.5rem;
+  }
   
   ul {
-    list-style: none;
+    list-style: none;   
   }
   
   ul li {
@@ -72,18 +103,26 @@
   ul li.facebook div.slider{
     background: #627aac;
   }
+  ul li.linkedin div.slider{
+    background: #627aac;
+  }
   
   ul li.twitter div.slider{
     background: #7fd5f6;
   }
   
   ul li.instagram div.slider{
-    background: #dd94c6;
+    background: #dc5e73;
   }
   
   ul li.google div.slider{
     background: #eea59c;
   }
+
+  ul li.Github div.slider{
+    background: #302e2e;
+  }
+  
   
   ul li.whatsapp div.slider{
     background: #82d47e;
@@ -148,4 +187,17 @@
     letter-spacing: 1px;
   }
 
+  .footer{
+    background-color: var(--first-color);
+  }
+  
+  
+  .footer__copy{
+    position: absolute; 
+    bottom: 5px;
+    left: 20;
+    color: white;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+  }
   
