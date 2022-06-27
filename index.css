@@ -3,6 +3,8 @@
     padding: 0;
   }
   
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
   body {
     background: #30333A;
   }
@@ -10,7 +12,7 @@
   .wrapper {
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
   
@@ -26,6 +28,7 @@
     margin: 10px 0;
     cursor: pointer;
     border-radius: 3px;
+    
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
   }
   
