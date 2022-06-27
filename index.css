@@ -76,6 +76,10 @@
     background: #3b5998;
   }
 
+  ul li.snapchat{
+    background:   #FFFC00;
+  }
+ 
   ul li.Github{
     background: #171515;
   }
@@ -102,6 +106,9 @@
   
   ul li.facebook div.slider{
     background: #627aac;
+  }
+  ul li.snapchat div.slider{
+    background: #c6c449;
   }
   ul li.linkedin div.slider{
     background: #627aac;
